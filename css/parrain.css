@@ -1,0 +1,50 @@
+
+
+.formulaire{
+	text-align: left;
+}
+
+#form-parr{
+	background-color: rgba(10, 150, 202, 0.6);
+	padding: 10px;
+}
+
+#form-parr:hover{
+	box-shadow: 0px 0px 5px #444;
+}
+legend{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 25px;
+	color: #444;
+}
+#form-parr input{
+	width: 250px;
+	height: 30px;
+}
+#form-parr label{
+	display: inline-block;
+	width: 200px;
+	padding: 10px 0px 15px 20px;
+}
+#form-parr select{
+	width: 250px;
+	height: 30px;
+}
+input[type="submit"]{
+	height: 50px;
+	float: right;
+	padding: 0px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #053a59;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+input[type="submit"]:hover{
+	box-shadow: 0px 0px 5px #555;
+	background-color: #fff;
+	color: #053a59;
+}
